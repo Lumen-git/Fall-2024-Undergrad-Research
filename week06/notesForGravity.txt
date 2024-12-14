@@ -1,0 +1,5 @@
+https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/Sensors.html
+|
++-> GravitySensor: Use the gravity sensor to determine the direction of the gravity vector relative to a device. This is useful to control content by device orientation. This is usually derived from a hardware Accelerometer, by subtracting the effect of linear acceleration (see LinearAccelerationSensor). Values are affected by the Compensate Orientation setting.
+
+https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/api/UnityEngine.InputSystem.GravitySensor.html

@@ -1,0 +1,13 @@
+This week:
+
+Fixed demo 1, now works on vertical planes.
+
+Created demo 2, 3D volume detection.
+Where detecting a collision with a 2D plane required 1D lines as bounds,
+3D collision requires 2D bounds. Because of this, the process of detecting
+collisions with a 3D object is easier than a 2D mesh.
+
+The demo in the app works by allowing the user to place a box made of 
+the same data structure used by AR Foundation, allowing the user to walk around it
+and test it in various ways, rather than making the user scan a room and have limited mobility.
+The user can then use their 3D poiner to test the bounds.

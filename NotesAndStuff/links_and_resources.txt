@@ -1,0 +1,12 @@
+AR Foundation Walkthrough - https://www.youtube.com/playlist?list=PL9z3tc0RL6Z4WenhJiJieCcrPVNxYszod
+
+https://github.com/MicrosoftDocs/mixed-reality/blob/docs/mixed-reality-docs/mr-dev-docs/develop/unity/qr-code-tracking-unity.md
+https://github.com/keijiro/jp.keijiro.apriltag
+
+Vuforia?? - https://developer.vuforia.com/home
+https://medium.com/xrpractices/creating-augmented-reality-on-any-image-with-vuforia-unity-30d71adb203
+https://chizaraibeakanma.hashnode.dev/marker-based-ar-experience-unity-vuforia
+
+https://www.artoolkitx.org/
+
+Plane to point - https://stackoverflow.com/questions/28653628/getting-closest-point-on-a-plane
