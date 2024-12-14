@@ -1,0 +1,2 @@
+Finished fixing the first two guides according to notes, and reviewed the third guide based on the notes from the first two and fixed it up accordingly.
+Created new scene with light level detection using examples from AR Foundation demos

@@ -1,0 +1,267 @@
+vertex // 0
+{
+x = 88.0;
+y = -89.0;
+}
+
+vertex // 1
+{
+x = 158.29;
+y = -112.76;
+}
+
+vertex // 2
+{
+x = 124.0;
+y = 34.0;
+}
+
+vertex // 3
+{
+x = 123.783;
+y = 33.4;
+}
+
+vertex // 4
+{
+x = 60.0;
+y = -140.0;
+}
+
+vertex // 5
+{
+x = 66.0;
+y = -143.0;
+}
+
+vertex // 6
+{
+x = -267.43;
+y = -212.238;
+}
+
+vertex // 7
+{
+x = -158.0;
+y = 126.0;
+}
+
+vertex // 8
+{
+x = -248.03;
+y = -220.321;
+}
+
+vertex // 9
+{
+x = 125.0;
+y = 33.0;
+}
+
+vertex // 10
+{
+x = 89.0;
+y = -327.0;
+}
+
+vertex // 11
+{
+x = -268.0;
+y = -212.0;
+}
+
+vertex // 12
+{
+x = 114.598;
+y = -247.854;
+}
+
+linedef // 0
+{
+v1 = 0;
+v2 = 1;
+sidefront = 0;
+blocking = true;
+}
+
+linedef // 1
+{
+v1 = 2;
+v2 = 3;
+blocking = true;
+}
+
+linedef // 2
+{
+v1 = 4;
+v2 = 5;
+sidefront = 1;
+blocking = true;
+}
+
+linedef // 3
+{
+v1 = 6;
+v2 = 7;
+sidefront = 2;
+blocking = true;
+}
+
+linedef // 4
+{
+v1 = 8;
+v2 = 6;
+sidefront = 3;
+blocking = true;
+}
+
+linedef // 5
+{
+v1 = 7;
+v2 = 3;
+sidefront = 4;
+blocking = true;
+}
+
+linedef // 6
+{
+v1 = 3;
+v2 = 4;
+sidefront = 5;
+blocking = true;
+}
+
+linedef // 7
+{
+v1 = 3;
+v2 = 9;
+blocking = true;
+}
+
+linedef // 8
+{
+v1 = 10;
+v2 = 8;
+sidefront = 6;
+blocking = true;
+}
+
+linedef // 9
+{
+v1 = 6;
+v2 = 11;
+blocking = true;
+}
+
+linedef // 10
+{
+v1 = 1;
+v2 = 12;
+sidefront = 7;
+blocking = true;
+}
+
+linedef // 11
+{
+v1 = 12;
+v2 = 10;
+sidefront = 8;
+blocking = true;
+}
+
+linedef // 12
+{
+v1 = 5;
+v2 = 0;
+sidefront = 9;
+blocking = true;
+}
+
+linedef // 13
+{
+v1 = 6;
+v2 = 8;
+sidefront = 10;
+sideback = 11;
+twosided = true;
+}
+
+sidedef // 0
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 1
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 2
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 3
+{
+sector = 0;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 4
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 5
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 6
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 7
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 8
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 9
+{
+sector = 1;
+texturemiddle = "STARTAN2";
+}
+
+sidedef // 10
+{
+sector = 0;
+offsetx_mid = 17.0;
+}
+
+sidedef // 11
+{
+sector = 1;
+}
+
+sector // 0
+{
+heightfloor = 0;
+heightceiling = 128;
+texturefloor = "FLOOR0_1";
+textureceiling = "CEIL1_1";
+lightlevel = 192;
+}
