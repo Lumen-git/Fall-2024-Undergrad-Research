@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 91b81b04f9e493b429ccbd47cc47713d
+  - enabled: 1
+    path: Assets/Scenes/Surfaces.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SimpleCollision/SimpleCollisions.unity
+    guid: 115a16ba59a8a8d49bcb97418f5fd5b1
+  - enabled: 1
+    path: Assets/Scenes/InObject/InObject.unity
+    guid: 9a4dee4bc7329b94eb0416f098d3564d
+  - enabled: 1
+    path: Assets/Scenes/InObject/InRoom.unity
+    guid: f7f5f2cff4d37c046aba1b4b2c22aeee
+  - enabled: 1
+    path: Assets/Scenes/accelerometer/accelerometer.unity
+    guid: e9ff85c1c72e844c0bf6fa789bd7bee6
+  - enabled: 1
+    path: Assets/Scenes/Textures.unity
+    guid: 0ecc1744b575d754b97afd883fb19baa
+  - enabled: 1
+    path: Assets/Scenes/RoomScan/RoomScan.unity
+    guid: d3ec30b579db81c4a9364b3f13ed2ef0
+  - enabled: 1
+    path: Assets/Scenes/Light/Light.unity
+    guid: 672eebcffa1c84d4faab2d1a89b5d968
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 9f64638a091de8a43bb702a1220d6916, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 328c55e0411e4584ebfc85ed40d8c2dd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d28bd05617b9da04585139c0c7dfb86d, type: 2}
