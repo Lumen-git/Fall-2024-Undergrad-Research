@@ -1,1 +1,18 @@
 # Fall-2024-Undergrad-Research
+
+This repository contains all of the key work from my Fall 2024 undergrad research project, where I worked with the Indiana University computer graphics courses and instructor Mitja Hmeljak.
+The goal of this project was to develop a curriculum to teach AR graphics capabilities at IU, as well as integrate AR into the existing graphics courses, using Unity and it's AR Foundation package. 
+The work is broken down by week, with the completed code base and guides I made stored separately. Any missing week just means school was on break or the class part of research took precedent that week, rather than the actual research project itself.
+
+### Week 4
+To start I made a simple plane detection test and a custom collision script that allows the user to use a 3D cursor to 'tap' walls or floors and test collisions. I believe for this first demo I made it so only the first plane detected was stored and used for collisions, as well as only detected floors so I could focus on testing one axis at a time. This demo left a lot to be desired and was heavily improved over time. Even with a year of Unity under my belt at this point, this was my first adventure into AR and some of the maths we would use, and it definitely shows.
+
+### Week 5
+Fixed up demo 1 a little bit to work on planes. I also created a second demo to test 'in object detection'. This demo allows the user to spawn a cube made out of the same data structure AR Foundation uses for surface meshes. This was actually significantly easier than testing for collisions with a surface, since a surface requires some complex dot products to test for the 1D bounds of a mesh, but testing for the 2D plane bounds of an object simply requires checking the signs of the distance to each plane. If all distances are negative, the point is within the object. This fails on very complex or concave objects, but for our simple tests of data input and digital/real world environment meshing I decided to move onto the next demos and return to this if time allowed (it did not).
+
+### Week 6
+Unity provides a collection of demos for AR Foundation, and one of these demos includes a 'Debug Plane' prefab which shows which way the normal of the surface is facing, as well as its classifications. I added this to the surface detection demo to better understand how Unity saw the world. I also turned the in object demo into an 'in room' demo, which is the exact same as the in object demo, but passes if all distances are positive instead of negative. I also did some testing with getting acceleration data from the phone, which is not a part of AR Foundation but just a direct input from Unity's input system, but due to the way I tried to represent the data this was a noisy mess and was fully revamped in a later week.
+
+### Week 7
+Changed the acceleration demo to be more clear. This demo shows total acceleration, linear acceleration (acceleration without the effect of gravity), and acceleration due to gravity. This was a pretty simple week, so I also made 3 additional demos purely out of my own interest. Demo X is a simple surface detector, but applies a texture to the detected surfaces. Demo Y creates a floor plan out of a scanned room and exports it in the UDFM format, which means you can 3D scan a room and load it into the 1994 video game Doom II. As far as I'm concerned, this is the peak of computer science and honestly we might as well turn off all computers at this point. Demo Z, which was later removed due to compiling issues, tested AR Foundation's 2D image tracking by attaching simple models to detected April Tags.
+
