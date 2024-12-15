@@ -1,2 +1,0 @@
-0 - Basic AR setup and built in surface detection
-1 - Using the surfaces detected by AR Foundation to detect collisions. Red ball - not close enough to collide or cosidered 'over surface'. Blue ball - no collision but considered 'over surface'. Green - full collision.
