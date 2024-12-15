@@ -1,0 +1,7 @@
+Copyright 2024 Aidan Moran, interstellarshareware.net
+
+You are free to reuse, modify, and redistribute this work as you see fit so long as:
+  1) You include a notice of what parts of this work you've changed and what parts of this work you included as part of your own
+  2) You include 'Copyright 2024 Aidan Moran, interstellarshareware.net' within your work, in referece to the parts of this work you used
+
+As long as you follow those 2 rules, you are welcome to use this work however you see fit! Go create something wonderful!
